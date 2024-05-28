@@ -384,12 +384,14 @@ img {
   width: 170px;
   height: 170px;
   border: solid 2px white;
+  object-fit: cover;
 }
 
 .profile-pic:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   box-shadow: 0 0px 16px 0 rgba(255,255,255,0.5);
+  object-fit: cover;
 }
 
 .profile-pic-div {
@@ -400,6 +402,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
+
 }
 
 .experience-details {

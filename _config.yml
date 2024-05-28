@@ -1,21 +1,22 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Hyunjin Kim
+description: Web Developer
+site_title: '@Developer - Hyunjin Kim'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
+github_username: hyunjinkim-kr
+# blog_url: https://www.nagekar.com email: abhishek@nagekar.com github_username: abhn keybase_username: abhn twitter_username: abhn_ reddit_username: abhn
+blog_url: https://portfolio-five-khaki-81.vercel.app/
+email: dufqnfsk22@gmail.com
 keybase_username: abhn
 twitter_username: abhn_
 reddit_username: abhn
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/hyunjin.jpg
 
 # Google Analytics ID
 google_analytics: 
