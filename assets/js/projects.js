@@ -10,24 +10,24 @@ let render_projects = (slug) => {
     $(`#${slug}`).addClass('white-button-hover');
 
     let projects_obj = [
-        {
-            image: 'assets/images/next_portfolio.jpg',
-            link: 'https://github.com/hyunjinkim-kr/portfolio',
-            title: 'Portfolio by Next.js',
-            demo: 'https://portfolio-five-khaki-81.vercel.app/',
-            technologies: ['React.js', 'Next.js'],
-            description: "This portfolio page was developed using Next.js and deployed on Vercel.",
-            categories: ['webdev', 'diy']
-        },
-        {
-            image: 'assets/images/korean_history.jpg',
-            link: 'https://github.com/hyunjinkim-kr/hanguksa',
-            title: 'hanguksa (Korean history quiz)',
-            demo: false,
-            technologies: ['HTML', 'CSS', 'Javascript'],
-            description: "An engaging and educational online platform to test and learn about Korean history.",
-            categories: ['webdev','diy']
-        },
+        // {
+        //     image: 'assets/images/next_portfolio.jpg',
+        //     link: 'https://github.com/hyunjinkim-kr/portfolio',
+        //     title: 'Portfolio by Next.js',
+        //     demo: 'https://portfolio-five-khaki-81.vercel.app/',
+        //     technologies: ['React.js', 'Next.js'],
+        //     description: "This portfolio page was developed using Next.js and deployed on Vercel.",
+        //     categories: ['webdev', 'diy']
+        // },
+        // {
+        //     image: 'assets/images/korean_history.jpg',
+        //     link: 'https://github.com/hyunjinkim-kr/hanguksa',
+        //     title: 'hanguksa (Korean history quiz)',
+        //     demo: false,
+        //     technologies: ['HTML', 'CSS', 'Javascript'],
+        //     description: "An engaging and educational online platform to test and learn about Korean history.",
+        //     categories: ['webdev','diy']
+        // },
         {
             image: 'assets/images/Escape_the_Block.png',
             link: 'https://github.com/hyunjinkim-kr/unblockMe',

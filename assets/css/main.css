@@ -582,3 +582,14 @@ a {
     bottom: 15px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .paragraph-text.justify-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+    word-break: keep-all; /* 단어가 부족한 경우 하이픈(-)으로 다음 줄로 넘깁니다. */
+    hyphens: auto; /* 단어가 부족한 경우에는 하이픈으로 다음 줄로 넘깁니다. */
+  }
+}
